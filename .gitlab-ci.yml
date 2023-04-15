@@ -1,0 +1,3 @@
+include:
+    project: "humancloud/templates"
+    file: "dev/.gitlab-ci-hc-resumemaker.yaml"

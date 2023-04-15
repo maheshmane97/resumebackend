@@ -1,0 +1,11 @@
+version: '3.9'
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    environment:
+          SPRING_DATASOURCE_URL: jdbc:postgresql://hct-converge-rds.c59etlb8vfff.ap-south-1.rds.amazonaws.com:5432/resumebuilder?schema=resumebuilder
+          SPRING_DATASOURCE_USERNAME: postgres
+          SPRING_DATASOURCE_PASSWORD: G85hLjgMU
+          SERVER_PORT: 9091
